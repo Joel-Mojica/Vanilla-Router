@@ -21,7 +21,11 @@ class Router {
             }
         } = window;
         const URI = pathname === "/" ? "home" : pathname.replace("/", "");
-        this.load(URI);
+       /*
+       *english: I saw your code and it is very interesting, today I tried to implement it but this line of code makes everything collapse so I suggest you comment it so that someone else does not waste hours trying to solve it.
+       *spanish: vi tu codigo y esta muy interesante, hoy trate de implementarlo pero esta línea de código hace que todo colapse así que te sugiero que la comentes para que alguien más no pierda horas tratando de resolverlo.
+       */
+        //  =>>   this.load(URI);  <<=              this is the problem - este es el problema de todo el codigo
     }
 
     /**
